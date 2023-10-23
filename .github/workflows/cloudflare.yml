@@ -45,4 +45,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          command: deploy .output/server/index.mjs --compatibility-date 2023-10-23
+          command: deploy .output/server/index.mjs --compatibility-date 2023-10-23 --name todo
